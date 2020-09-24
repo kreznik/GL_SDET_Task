@@ -1,0 +1,363 @@
+[1600878666,807][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 11495
+[1600878666,807][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1600878667,243][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/arka/APITest/build/downloads/1600878665684_11665_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/arka/APITest/build/downloads/1600878665684_11665_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600878667,243][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/arka/APITest/build/downloads/1600878665684_11665_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600878667,244][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600878667,244][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.vEMOJT data:,
+[1600878668,683][INFO]: resolved localhost to ["127.0.0.1"]
+[1600878668,754][INFO]: resolved localhost to ["127.0.0.1"]
+[1600878668,854][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "80.0.3987.149",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882})",
+         "userDataDir": "/tmp/.com.google.Chrome.vEMOJT"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:38645"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "2f5ce3462ebf2d43102e8ed6854e4c6e"
+}
+[1600878668,939][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600878668,939][INFO]: Waiting for pending navigations...
+[1600878668,941][INFO]: Done waiting for pending navigations. Status: ok
+[1600878669,044][INFO]: Waiting for pending navigations...
+[1600878669,044][INFO]: Done waiting for pending navigations. Status: ok
+[1600878669,044][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 77,
+   "y": 37
+}
+[1600878669,055][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND Navigate {
+   "url": "https://www.imdb.com/"
+}
+[1600878669,055][INFO]: Waiting for pending navigations...
+[1600878669,056][INFO]: Done waiting for pending navigations. Status: ok
+[1600878670,217][INFO]: Waiting for pending navigations...
+[1600878670,367][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878670,470][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878670,639][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878671,016][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878671,256][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878672,132][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878672,241][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878672,353][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600878672,558][INFO]: Done waiting for pending navigations. Status: ok
+[1600878672,558][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE Navigate
+[1600878672,621][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878672,621][INFO]: Waiting for pending navigations...
+[1600878672,622][INFO]: Done waiting for pending navigations. Status: ok
+[1600878672,637][INFO]: Waiting for pending navigations...
+[1600878672,638][INFO]: Done waiting for pending navigations. Status: ok
+[1600878672,638][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878672,862][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878672,862][INFO]: Waiting for pending navigations...
+[1600878672,866][INFO]: Done waiting for pending navigations. Status: ok
+[1600878672,887][INFO]: Waiting for pending navigations...
+[1600878672,889][INFO]: Done waiting for pending navigations. Status: ok
+[1600878672,889][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878673,106][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878673,106][INFO]: Waiting for pending navigations...
+[1600878673,109][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,138][INFO]: Waiting for pending navigations...
+[1600878673,139][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,140][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878673,359][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878673,359][INFO]: Waiting for pending navigations...
+[1600878673,364][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,389][INFO]: Waiting for pending navigations...
+[1600878673,391][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,391][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878673,609][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878673,610][INFO]: Waiting for pending navigations...
+[1600878673,611][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,620][INFO]: Waiting for pending navigations...
+[1600878673,621][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,621][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878673,833][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878673,833][INFO]: Waiting for pending navigations...
+[1600878673,835][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,865][INFO]: Waiting for pending navigations...
+[1600878673,867][INFO]: Done waiting for pending navigations. Status: ok
+[1600878673,867][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878674,081][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878674,081][INFO]: Waiting for pending navigations...
+[1600878674,086][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,122][INFO]: Waiting for pending navigations...
+[1600878674,125][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,125][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878674,338][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878674,339][INFO]: Waiting for pending navigations...
+[1600878674,339][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,350][INFO]: Waiting for pending navigations...
+[1600878674,351][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,351][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878674,562][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878674,563][INFO]: Waiting for pending navigations...
+[1600878674,567][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,604][INFO]: Waiting for pending navigations...
+[1600878674,606][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,606][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878674,830][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878674,831][INFO]: Waiting for pending navigations...
+[1600878674,834][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,870][INFO]: Waiting for pending navigations...
+[1600878674,872][INFO]: Done waiting for pending navigations. Status: ok
+[1600878674,872][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878675,087][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878675,087][INFO]: Waiting for pending navigations...
+[1600878675,090][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,122][INFO]: Waiting for pending navigations...
+[1600878675,123][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,123][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878675,337][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878675,337][INFO]: Waiting for pending navigations...
+[1600878675,339][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,376][INFO]: Waiting for pending navigations...
+[1600878675,382][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,383][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878675,601][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878675,601][INFO]: Waiting for pending navigations...
+[1600878675,603][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,639][INFO]: Waiting for pending navigations...
+[1600878675,641][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,641][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878675,856][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878675,856][INFO]: Waiting for pending navigations...
+[1600878675,857][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,864][INFO]: Waiting for pending navigations...
+[1600878675,865][INFO]: Done waiting for pending navigations. Status: ok
+[1600878675,865][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878676,076][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878676,076][INFO]: Waiting for pending navigations...
+[1600878676,083][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,105][INFO]: Waiting for pending navigations...
+[1600878676,106][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,106][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878676,312][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878676,312][INFO]: Waiting for pending navigations...
+[1600878676,313][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,320][INFO]: Waiting for pending navigations...
+[1600878676,320][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,320][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878676,530][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='btnK']"
+}
+[1600878676,530][INFO]: Waiting for pending navigations...
+[1600878676,534][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,569][INFO]: Waiting for pending navigations...
+[1600878676,571][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,571][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnK']"}
+  (Session info: chrome=80.0.3987.149)
+[1600878676,805][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1600878676,805][INFO]: Waiting for pending navigations...
+[1600878676,811][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,907][INFO]: Waiting for pending navigations...
+[1600878676,914][INFO]: Done waiting for pending navigations. Status: ok
+[1600878676,915][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" class=\" scriptsOn\" data-react-helmet=\"lang,xmlns:og,xmlns:fb\">\u003Chead>\u003Cscript async=\"\" src..."
+[1600878677,151][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND Screenshot {
+
+}
+[1600878677,151][INFO]: Waiting for pending navigations...
+[1600878677,159][INFO]: Done waiting for pending navigations. Status: ok
+[1600878679,629][INFO]: Waiting for pending navigations...
+[1600878679,630][INFO]: Done waiting for pending navigations. Status: ok
+[1600878679,631][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABU4AAAKrCAYAAAAu6xdHAAABKWlDQ1BTa2lhAAAokX2Ru0oDURCGP4MgioKghYjFgk0Kb7loCGiRjSbYJgqJVpvdJASTuGxW9CHE1k7ExtraF7AUBBt9CLGwsvA/CbIBiTPMzMecOZeZA7EFJLFZ6HTDoFS0rUr1yGJIHLfnM1rG4..."
+[1600878679,785][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] COMMAND Quit {
+
+}
+[1600878680,286][INFO]: [2f5ce3462ebf2d43102e8ed6854e4c6e] RESPONSE Quit

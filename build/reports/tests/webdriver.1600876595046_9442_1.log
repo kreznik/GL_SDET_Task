@@ -1,0 +1,336 @@
+[1600876596,645][INFO]: Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 28468
+[1600876596,645][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1600876598,175][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/arka/APITest/build/downloads/1600876589539_9442_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/arka/APITest/build/downloads/1600876589539_9442_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600876598,340][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/arka/APITest/build/downloads/1600876589539_9442_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600876598,341][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600876598,342][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.vdLt4A data:,
+[1600876615,561][INFO]: resolved localhost to ["127.0.0.1"]
+[1600876615,974][INFO]: resolved localhost to ["127.0.0.1"]
+[1600876616,262][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "80.0.3987.149",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882})",
+         "userDataDir": "/tmp/.com.google.Chrome.vdLt4A"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42145"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "aa9087f602048c212cebaa0e561740d4"
+}
+[1600876617,018][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600876617,018][INFO]: Waiting for pending navigations...
+[1600876617,021][INFO]: Done waiting for pending navigations. Status: ok
+[1600876617,124][INFO]: Waiting for pending navigations...
+[1600876617,125][INFO]: Done waiting for pending navigations. Status: ok
+[1600876617,125][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 77,
+   "y": 37
+}
+[1600876617,217][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND Navigate {
+   "url": "https://www.imdb.com/"
+}
+[1600876617,217][INFO]: Waiting for pending navigations...
+[1600876617,220][INFO]: Done waiting for pending navigations. Status: ok
+[1600876618,715][INFO]: Waiting for pending navigations...
+[1600876618,839][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876618,942][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876619,147][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876620,120][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876620,291][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876621,267][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876623,202][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876625,698][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876625,812][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876625,918][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876626,158][SEVERE]: Timed out receiving message from renderer: 0,100
+[1600876626,362][INFO]: Done waiting for pending navigations. Status: ok
+[1600876626,362][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE Navigate
+[1600876628,696][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876628,697][INFO]: Waiting for pending navigations...
+[1600876628,699][INFO]: Done waiting for pending navigations. Status: ok
+[1600876628,789][INFO]: Waiting for pending navigations...
+[1600876628,791][INFO]: Done waiting for pending navigations. Status: ok
+[1600876628,792][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876629,270][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876629,270][INFO]: Waiting for pending navigations...
+[1600876629,274][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,311][INFO]: Waiting for pending navigations...
+[1600876629,313][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,313][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876629,540][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876629,540][INFO]: Waiting for pending navigations...
+[1600876629,552][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,593][INFO]: Waiting for pending navigations...
+[1600876629,594][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,594][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876629,811][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876629,811][INFO]: Waiting for pending navigations...
+[1600876629,814][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,855][INFO]: Waiting for pending navigations...
+[1600876629,857][INFO]: Done waiting for pending navigations. Status: ok
+[1600876629,857][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876630,086][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876630,086][INFO]: Waiting for pending navigations...
+[1600876630,091][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,126][INFO]: Waiting for pending navigations...
+[1600876630,128][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,128][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876630,354][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876630,354][INFO]: Waiting for pending navigations...
+[1600876630,358][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,395][INFO]: Waiting for pending navigations...
+[1600876630,398][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,398][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876630,621][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876630,621][INFO]: Waiting for pending navigations...
+[1600876630,664][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,673][INFO]: Waiting for pending navigations...
+[1600876630,674][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,674][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876630,888][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876630,888][INFO]: Waiting for pending navigations...
+[1600876630,910][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,935][INFO]: Waiting for pending navigations...
+[1600876630,936][INFO]: Done waiting for pending navigations. Status: ok
+[1600876630,936][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876631,148][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876631,148][INFO]: Waiting for pending navigations...
+[1600876631,152][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,194][INFO]: Waiting for pending navigations...
+[1600876631,200][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,200][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876631,426][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876631,426][INFO]: Waiting for pending navigations...
+[1600876631,429][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,468][INFO]: Waiting for pending navigations...
+[1600876631,471][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,471][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876631,690][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876631,690][INFO]: Waiting for pending navigations...
+[1600876631,693][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,734][INFO]: Waiting for pending navigations...
+[1600876631,741][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,741][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876631,960][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876631,960][INFO]: Waiting for pending navigations...
+[1600876631,963][INFO]: Done waiting for pending navigations. Status: ok
+[1600876631,999][INFO]: Waiting for pending navigations...
+[1600876632,006][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,006][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876632,225][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876632,225][INFO]: Waiting for pending navigations...
+[1600876632,228][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,272][INFO]: Waiting for pending navigations...
+[1600876632,274][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,274][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876632,492][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Back to the future']"
+}
+[1600876632,492][INFO]: Waiting for pending navigations...
+[1600876632,494][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,529][INFO]: Waiting for pending navigations...
+[1600876632,532][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,532][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Back to the future']"}
+  (Session info: chrome=80.0.3987.149)
+[1600876632,805][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1600876632,805][INFO]: Waiting for pending navigations...
+[1600876632,808][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,881][INFO]: Waiting for pending navigations...
+[1600876632,883][INFO]: Done waiting for pending navigations. Status: ok
+[1600876632,883][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" class=\" scriptsOn\" data-react-helmet=\"lang,xmlns:og,xmlns:fb\">\u003Chead>\u003Cscript async=\"\" src..."
+[1600876633,117][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND Screenshot {
+
+}
+[1600876633,117][INFO]: Waiting for pending navigations...
+[1600876633,123][INFO]: Done waiting for pending navigations. Status: ok
+[1600876633,643][INFO]: Waiting for pending navigations...
+[1600876633,644][INFO]: Done waiting for pending navigations. Status: ok
+[1600876633,645][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABU4AAAKrCAYAAAAu6xdHAAABKWlDQ1BTa2lhAAAokX2Ru0oDURCGP4MgioKghYjFgk0Kb7loCGiRjSbYJgqJVpvdJASTuGxW9CHE1k7ExtraF7AUBBt9CLGwsvA/CbIBiTPMzMecOZeZA7EFJLFZ6HTDoFS0rUr1yGJIHLfnM1rG4..."
+[1600876634,140][INFO]: [aa9087f602048c212cebaa0e561740d4] COMMAND Quit {
+
+}
+[1600876634,191][INFO]: [aa9087f602048c212cebaa0e561740d4] RESPONSE Quit
